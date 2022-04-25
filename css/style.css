@@ -1,0 +1,157 @@
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+section {
+  padding: 3rem 9%;
+}
+
+.heading {
+  background: url('../image/heading-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 8rem;
+}
+
+.heading h1 {
+  color: #222;
+  font-size: 4rem;
+}
+
+.heading p {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: #666;
+}
+
+.heading p a {
+  color: #222;
+  padding-right: .5rem;
+}
+
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: .8rem 3rem;
+  /* background: #ADD8E6; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+/* 
+ */
+.home {
+  padding-top: 14rem;
+  background: url('../image/home-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.home .slides-container .slide {
+  
+  display: flex;
+  gap: 1.5rem;
+  display: none;
+}
+
+.home .slides-container .slide.active {
+  
+  display: flex;
+}
+
+
+.home .slides-container .slide .content span {
+  color: #666;
+  font-size: 2.5rem;
+}
+
+
+.home .slides-container .slide .image {
+  padding-left: 20rem;
+}
+.products .box-container {
+  
+  display: grid;
+ 
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.products .box-container .box {
+  position: relative;
+  background: #f3f3f3;
+  text-align: center;
+  text-transform: lowercase;
+  overflow: hidden;
+}
+
+.products .box-container .box .icons {
+  position: absolute;
+  top: -105%;
+  left: 0;
+  height: 30rem;
+  width: 100%;
+  display: flex;
+  background: rgba(243, 243, 243, 0.8);
+  gap: 1rem;
+}
+
+.products .box-container .box .icons a {
+  font-size: 2rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  background: #fff;
+  color: #666;
+  text-transform: none;
+}
+
+
+
+.products .box-container .box .image {
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.products .box-container .box .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.products .box-container .box .content {
+  padding: 1.5rem;
+}
+
+.products .box-container .box .content h3 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.products .box-container .box .content .price {
+  font-size: 2rem;
+  color: #222;
+  padding: 1rem 0;
+}
+
+
+.products .box-container .box .content a {
+  text-transform:none;
+}
+
+
+
+
+

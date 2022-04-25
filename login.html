@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .login-form{
+            text-transform: lowercase;
+            padding-top: 20rem;
+        }
+
+        .login-form .box{
+            width: 15%;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function checkform()
+        {
+            var uid=document.getElementById("uid").value;
+            var pass=document.getElementById("pass").value;
+            if(uid.length<5)
+            {
+                alert("userid too short");
+                return false;
+            }
+            else if(uid.length>15)
+            {
+                alert('userid length exceeded. keep it below 15 characters');
+                return false;
+            }
+           
+            else if(pass.length<9)
+            {
+                alert("password too short");
+                return false;
+            }
+            else if(pass.length>15)
+            {
+                alert('password length exceeded. keep it below 15 characters');
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+       
+        function chngcolorover()
+        {
+            document.getElementById('subbtn').style.color='green';
+        }
+       
+        function chngcolorout()
+        {
+            document.getElementById('subbtn').style.color='white';
+        }
+       
+        function textclroveru()
+        {
+            document.getElementById('uid').style.backgroundColor='#87CEEB';
+
+        }
+
+        function textclroutu()
+        {
+            document.getElementById('uid').style.backgroundColor='white';
+
+        }
+
+    </script>
+</head>
+<body>
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> BigMart </a>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="d&b.html">Dairy and Bakery</a>
+        <a href="f&v.html">Fruits and Vegetables</a>
+        <a href="dryfruit.html">dryfruit</a>
+        <a href="contact.html">contact</a>
+    </nav>
+</header>
+<center>
+<form action="home.php" class="login-form" method="post" onsubmit="checkform()">
+    <h1>login </h1><br>
+    <input type="text" placeholder="enter your id" class="box" name="uid" id="uid" onmouseover="textclroveru()" onmouseout="textclroutu()"><br><br>
+    <input type="password" placeholder="enter your password" class="box" id="pass"><br><br>
+   
+    <input type="submit" value="login" class="btn" id="subbtn" onmouseover="chngcolorover()" onmouseout="chngcolorout()"><br><br>
+    <h2><p>don't have an account? <a href="signup.html">create one</a></p></h2>
+</form>
+</center>
+</body>
+</html>

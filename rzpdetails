@@ -1,0 +1,19 @@
+"key": "rzp_test_buwq2Rog4l5rqo", // Enter the Key ID generated from the Dashboard
+            "amount": "<?php echo $_POST['gtotal'] * 100;?>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+            "currency": "INR",
+            "name": "bigmart",
+            "description": "Test Transaction",
+            "image": "https://example.com/your_logo",
+            "order_id": "", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+            "callback_url": "http://localhost/BigMart/inv.php",
+            "prefill": {
+                "name": "",
+                "email": "",
+                "contact": ""
+            },
+            "notes": {
+                "address": "e"
+            },
+            "theme": {
+                "color": "#3399cc"
+            }

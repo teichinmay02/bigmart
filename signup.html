@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>shop</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+        function checkform()
+        {
+            var fname=document.getElementById("fname").value;
+            var lname=document.getElementById("lname").value;
+            var email=document.getElementById("email").value;
+            var uid=document.getElementById("uid").value;
+            var pass=document.getElementById("pass").value;
+            //alert('hh');
+            if(fname.length<1)
+            {
+                alert('enter First Name');
+                return false;
+            }
+            else if(lname.length<1)
+            {
+                alert('enter Last Name');
+                return false;
+            }
+            else if(email.length<1)
+            {
+                alert('enter Email');
+                return false;
+            }
+            else if(uid.length<5)
+            {
+                alert("userid too short");
+                return false;
+            }
+            else if(uid.length>15)
+            {
+                alert('userid length exceeded. keep it below 15 characters');
+                return false;
+            }
+           
+            else if(pass.length<9)
+            {
+                alert("password too short");
+                return false;
+            }
+            else if(pass.length>15)
+            {
+                alert('password length exceeded. keep it below 15 characters');
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+
+        function chngcolorover()
+        {
+            document.getElementById('subbtn').style.color='green';
+        }
+
+        function chngcoloroverr()
+        {
+            document.getElementById('resbtn').style.color='green';
+        }
+   
+
+        function textclroverf()
+        {
+            document.getElementById('fname').style.backgroundColor='#00b4d8';
+        }
+
+        function textclroverl()
+        {
+            document.getElementById('lname').style.backgroundColor='#00b4d8';
+
+        }
+        function textclroverem()
+        {
+            document.getElementById('email').style.backgroundColor='#00b4d8';
+
+        }
+
+        function textclroveru()
+        {
+            document.getElementById('uid').style.backgroundColor='#00b4d8';
+
+        }
+
+        function textmouseout()
+        {
+            document.getElementById('fname').style.backgroundColor='white';
+            document.getElementById('lname').style.backgroundColor='white';
+            document.getElementById('email').style.backgroundColor='white';
+            document.getElementById('uid').style.backgroundColor='white';
+            document.getElementById('subbtn').style.color='white';
+            document.getElementById('resbtn').style.color='white';
+
+        }
+       
+    </script>    
+
+</head>
+<body>
+   
+
+<header class="header">
+
+    <a href="home.html" class="logo"> <i class="fas fa-shopping-basket"></i> BigMart </a>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="shop.html">shop</a>
+        <a href="d&b.html">Dairy and Bakery</a>
+        <a href="f&v.html">Fruits and Vegetables</a>
+        <a href="dryfruit.html">dryfruit</a>
+        <a href="contact.html">contact</a>
+    </nav>
+
+
+</header>
+<center>
+
+<form action="home.php" class="login-form"  method="POST" style="padding-top: 200px;" onsubmit=" checkform()">
+    <h1>Welcome to BigMart </h1><br>
+    <input type="text" placeholder="enter your First Name" class="box" name="fname" id="fname" onmouseover="textclroverf()" onmouseout="textmouseout()"><br><br>
+    <input type="text" placeholder="enter your Last Name" class="box" name="lname" id="lname" onmouseover="textclroverl()" onmouseout="textmouseout()"><br><br>
+    <input type="text" placeholder="enter your email" class="box" name="email" id="email" onmouseover="textclroverem()" onmouseout="textmouseout()"><br><br>
+    <h2>Gender:<input type="radio"name="gender" class="box" name="rmale" id="rmale" >Male
+    &nbsp;&nbsp;<input type="radio"name="gender" class="box"  name="rfemale" id="rfemale">Female</h2><br><br>
+    <input type="text" placeholder="enter your userid" class="box" name="uid" id="uid" onmouseover="textclroveru()" onmouseout="textmouseout()" ><br><br>
+    <input type="password" placeholder="Enter password" class="box" name="pass" id="pass" onmouseover="textclrover()" onmouseout="textmouseout()"><br><br>
+
+   
+    <input type="submit" value="signup" class="btn" id="subbtn" onmouseover="chngcolorover()" onmouseout="textmouseout()">
+    <input type="reset" value="reset" class="btn" id="resbtn" onmouseover="chngcoloroverr()" onmouseout="textmouseout()"><br><br><br><br>
+</form>
+<!--#00b4d8-->
+</center>
+</body>
+</html>
