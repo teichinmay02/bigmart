@@ -311,7 +311,7 @@
 		$mail->MsgHTML($content); 
 		if(!$mail->Send()) 
 		{
-		
+			
 			
 		} else 
 		{

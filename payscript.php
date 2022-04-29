@@ -154,7 +154,7 @@
             "key": "rzp_test_buwq2Rog4l5rqo", // Enter the Key ID generated from the Dashboard
     "amount": "<?php echo $_POST['gtotal'] * 100;?>", // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
     "currency": "INR",
-    "name": "Acme Corp",
+    "name": "BigMart",
     "description": "Test Transaction",
     "image": "https://example.com/your_logo",
     "order_id": "", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
@@ -169,9 +169,9 @@
         })
     },
     "prefill": {
-        "name": "Gaurav Kumar",
-        "email": "gaurav.kumar@example.com",
-        "contact": "9999999999"
+        "name": "",
+        "email": "",
+        "contact": ""
     },
     "notes": {
         "address": "Razorpay Corporate Office"

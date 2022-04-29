@@ -1,7 +1,7 @@
 <!-- <?php
     include('config.php');
 ?> -->
-<?php 
+<!-- <?php 
     session_start();
     //echo "<script>alert('Welcome ".$_SESSION['uid']."')</script>";
     
@@ -9,15 +9,15 @@
     { 
         echo "Welcome! This is the first time ."; 
         $cookie = 1;
-        setcookie("count", $cookie);
+        setcookie("count", $cookie,time() + 3600);
     }
     else
     {
         $cookie = ++$_COOKIE['count'];
-        setcookie("count", $cookie); 
+        setcookie("count", $cookie,time() + 3600); 
         echo "You have viewed this page ".$_COOKIE['count']." times."; 
     }
-?>
+?> -->
 <!DOCTYPE html>
 <head>
     <title>home</title>
@@ -338,7 +338,7 @@
             <div class="content">
                 <span style="font-style: italic;">fresh and organic Fruits and Vegetables</span>
                 <h3 style="font-style: italic; font-size: 6rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">upto 50% off</h3>
-                <a href="shop.php" class="btn btn-success" style="font-style: italic;">shop now</a>
+                <br><br><a href="shop.php" class="btn btn-success" style="font-style: italic;">shop now</a>
             </div>
             <div class="image">
                 <img src="image/home-img-1.png" alt="">

@@ -382,8 +382,8 @@
         <h1>Welcome to BigMart </h1><br>
         <div class="form-group">
 			<div class="row">
-				<div class="col"><input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required="required" onmouseover="textclroverf()" onmouseout="textmouseout()"></div>
-				<div class="col"><input type="text" onmouseover="textclroverl()" onmouseout="textmouseout()" class="form-control" id="lname" name="lname" placeholder="Last Name" required="required"></div>
+				<div class="col"><input type="text" class="form-control" id="fname" name="fname" placeholder="First Name" required="required" ></div>
+				<div class="col"><input type="text"      class="form-control" id="lname" name="lname" placeholder="Last Name" required="required"></div>
 			</div>        	
         </div>
 
