@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 24, 2022 at 08:21 PM
+-- Generation Time: Apr 29, 2022 at 06:25 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.1.1
 
@@ -265,7 +265,34 @@ INSERT INTO `checkout` (`fname`, `lname`, `email`, `addr`, `pincode`, `total`) V
 ('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 375),
 ('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 375),
 ('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 375),
-('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 535);
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 535),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 70),
+('Chinmay', 'Teli', 'ch@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 355),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 370),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 150),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 150),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 150),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 255),
+('', '', '', '', '', 0),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 395),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 395),
+('', '', '', '', '', 0),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 125),
+('Chinmay', 'Teli', 'ch@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 125),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 125),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 20),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 470),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 470),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 470),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 470),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 470);
 
 -- --------------------------------------------------------
 
@@ -275,25 +302,55 @@ INSERT INTO `checkout` (`fname`, `lname`, `email`, `addr`, `pincode`, `total`) V
 
 CREATE TABLE `finalcheck` (
   `id` varchar(10) NOT NULL,
-  `total` varchar(10) NOT NULL
+  `total` varchar(10) NOT NULL,
+  `email` varchar(60) NOT NULL,
+  `addr` varchar(500) NOT NULL,
+  `pincode` varchar(7) NOT NULL,
+  `fname` varchar(30) NOT NULL,
+  `lname` varchar(30) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `finalcheck`
 --
 
-INSERT INTO `finalcheck` (`id`, `total`) VALUES
-('1', '355'),
-('1', '355'),
-('1', '375'),
-('1', '375'),
-('2085102097', '375'),
-('1040764444', ''),
-('1119493778', '375'),
-('2071610157', '375'),
-('707790330', '375'),
-('803307123', '375'),
-('1126378655', '535');
+INSERT INTO `finalcheck` (`id`, `total`, `email`, `addr`, `pincode`, `fname`, `lname`) VALUES
+('1', '355', '', '', '', '', ''),
+('1', '355', '', '', '', '', ''),
+('1', '375', '', '', '', '', ''),
+('1', '375', '', '', '', '', ''),
+('2085102097', '375', '', '', '', '', ''),
+('1040764444', '', '', '', '', '', ''),
+('1119493778', '375', '', '', '', '', ''),
+('2071610157', '375', '', '', '', '', ''),
+('707790330', '375', '', '', '', '', ''),
+('803307123', '375', '', '', '', '', ''),
+('1126378655', '535', '', '', '', '', ''),
+('146139600', '70', '', '', '', '', ''),
+('1266691773', '355', '', '', '', '', ''),
+('789448910', '370', '', '', '', '', ''),
+('1090975932', '150', '', '', '', '', ''),
+('1135093996', '150', '', '', '', '', ''),
+('92571051', '150', '', '', '', '', ''),
+('1182025369', '255', '', '', '', '', ''),
+('1118092957', '255', '', '', '', '', ''),
+('1890276114', '255', '', '', '', '', ''),
+('1153065927', '255', '', '', '', '', ''),
+('1938439780', '255', '', '', '', '', ''),
+('1943881160', '255', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('24979308', '', '', '', '', '', ''),
+('97317594', '395', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('1778323538', '395', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('992988773', '', '', '', '', '', ''),
+('1815362141', '125', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('469938659', '125', 'ch@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('908316394', '125', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('1827239504', '20', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('589455915', '470', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('860069148', '470', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('397284650', '470', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('1551759363', '470', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli'),
+('1203193048', '470', 'telichinmay02@gmail.com', '13, Smruti\r\nTejpal Scheme Road No.5, Vile Parle East', '400057', 'Chinmay', 'Teli');
 
 -- --------------------------------------------------------
 
@@ -371,7 +428,17 @@ INSERT INTO `users` (`fname`, `lname`, `email`, `uid`, `passwd`) VALUES
 ('Johhn', 'Donovan', 'john@gmail.com', 'johnd0302', 'john@12345'),
 ('Trial', 'Run', 'trialrun@gmail.com', 'trial@1234', 'run@123456'),
 ('', '', '', '', 'hd'),
-('', '', '', '', 'jdjdjd');
+('', '', '', '', 'jdjdjd'),
+('Bhavya', 'Sura', 'telichinmay02@gmail.com', 'bab1', 'bab2'),
+('Chinmay', 'Teli', 'ch@gmail.com', '22', '22'),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', 's', 'ss'),
+('abc', 'teli', 'telichinmay02@gmail.com', 'aaaaaaaaaaaaaa', 'aaaaaaaaaaaaa'),
+('c', 'c', 'c@g.com', 'cc211212', 'ccccccccccc'),
+('Chinmay', 'Teli', 'chinmay.teli@somaiya.edu', 'chinmayt09', 'pass@1233456'),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', 'chinmayt09', 'pass@123456'),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', 'chinmayt09', 'pass@123456'),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', 'chinmayt09', 'pass@1234566'),
+('Chinmay', 'Teli', 'telichinmay02@gmail.com', 'chinmayt09', 'pass@1234456');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,7 +1,7 @@
 <!-- <?php
     include('config.php');
 ?> -->
-<!-- <?php 
+<?php 
     session_start();
     //echo "<script>alert('Welcome ".$_SESSION['uid']."')</script>";
     
@@ -17,7 +17,7 @@
         setcookie("count", $cookie,time() + 3600); 
         echo "You have viewed this page ".$_COOKIE['count']." times."; 
     }
-?> -->
+?>
 <!DOCTYPE html>
 <head>
     <title>home</title>
